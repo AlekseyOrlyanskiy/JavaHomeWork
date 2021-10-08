@@ -1,4 +1,4 @@
-package com.pb.orlyanskiy;
+package com.pb.orlyanskiy.hw1;
 
 public class HelloWorld {
     public static void main(String[] args) {
