@@ -1,15 +1,37 @@
 package com.pb.orlyanskiy.hw3;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Array {
 
     public static void main(String[] args) {
             //Записываем массив из 10 элементов
-        int[] array = new int[]{5, 6, 7, -7, -9, 2, 0, 11, -35, 5};
-            for (int i : array) {
-            //Выводим все элементы массива
-            System.out.println("Элемент массива:" + i);
+        int[] array = new int[10];
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите 1 элемент массива: ");
+        array [0] = scanner.nextInt();
+        System.out.println("Введите 2 элемент массива: ");
+        array [1] = scanner.nextInt();
+        System.out.println("Введите 3 элемент массива: ");
+        array [2] = scanner.nextInt();
+        System.out.println("Введите 4 элемент массива: ");
+        array [3] = scanner.nextInt();
+        System.out.println("Введите 5 элемент массива: ");
+        array [4] = scanner.nextInt();
+        System.out.println("Введите 6 элемент массива: ");
+        array [5] = scanner.nextInt();
+        System.out.println("Введите 7 элемент массива: ");
+        array [6] = scanner.nextInt();
+        System.out.println("Введите 8 элемент массива: ");
+        array [7] = scanner.nextInt();
+        System.out.println("Введите 9 элемент массива: ");
+        array [8] = scanner.nextInt();
+        System.out.println("Введите 10 элемент массива: ");
+        array [9] = scanner.nextInt();
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
         }
             // Считаем и выводим сумму всех элементов массива
         int sum = 0;
